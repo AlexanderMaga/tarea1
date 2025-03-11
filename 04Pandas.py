@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('./EstadisticaDescriptiva/housing.csv')
+df = pd.read_csv(r'C:\Users\hecto\Downloads\tarea1\housing.csv')
 
 #Mostrar las 5 primeras filas
 print(df.head())
